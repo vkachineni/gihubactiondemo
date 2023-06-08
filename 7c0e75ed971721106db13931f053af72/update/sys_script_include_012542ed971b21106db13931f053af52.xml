@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.GitHubActionDemoUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GitHubActionDemoUtils</name>
+        <script><![CDATA[var GitHubActionDemoUtils = Class.create();
+GitHubActionDemoUtils.prototype = {
+    initialize: function() {
+    },
+
+    type: 'GitHubActionDemoUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-08 03:02:35</sys_created_on>
+        <sys_id>012542ed971b21106db13931f053af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GitHubActionDemoUtils</sys_name>
+        <sys_package display_value="githubactiondemo" source="7c0e75ed971721106db13931f053af72">7c0e75ed971721106db13931f053af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="githubactiondemo">7c0e75ed971721106db13931f053af72</sys_scope>
+        <sys_update_name>sys_script_include_012542ed971b21106db13931f053af52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-08 03:02:35</sys_updated_on>
+    </sys_script_include>
+</record_update>
